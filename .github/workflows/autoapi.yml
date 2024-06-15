@@ -10,7 +10,7 @@ on:
       - master
       - develop
   schedule:
-    - cron: '55 23 * * *'
+    cron: '15 00 * * *'
   watch:
     types: [started]
    
